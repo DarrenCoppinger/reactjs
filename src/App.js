@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
-import useCoduToggle from "./hooks/use-codu-toggle"
+import useCoduToggle from "use-codu-toggle-dc"
 
 function App() {
-  const[isOn, setIsOn] = useCoduToggle();
+  const[isOn, setIsOn] = useCoduToggle(true);
 
   return (
     <div className="App">

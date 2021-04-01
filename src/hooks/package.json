@@ -1,0 +1,23 @@
+{
+  "name": "use-codu-toggle-dc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "use-codu-toggle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenCoppinger/reactjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarrenCoppinger/reactjs/issues"
+  },
+  "homepage": "https://github.com/DarrenCoppinger/reactjs#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
