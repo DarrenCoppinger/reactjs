@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import useCoduToggle from "./hooks/use-codu-toggle"
+
 function App() {
+  const[isOn, setIsOn] = useCoduToggle();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => setIsOn(isOn => !isOn)}>Is active {`${isOn}`}</button>
       </header>
     </div>
   );
